@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crema Café Gulshan | Specialty Coffee & All-Day Café in Gulshan-2, Dhaka</title>
+<meta name="description" content="Specialty lattes, classic coffee, savory bites and desserts at Crema Café Gulshan — House 36, Road 104, Gulshan-2, Dhaka. Open daily 12 PM–12 AM.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#FBF9F4">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#15100C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%232B1E16'/%3E%3Cpath d='M6 8h10v6a5 5 0 0 1-5 5v0a5 5 0 0 1-5-5z' stroke='%23DAB27B' stroke-width='1.6' fill='none'/%3E%3Cpath d='M16 10h2a3 3 0 0 1 0 6h-2' stroke='%23DAB27B' stroke-width='1.6' fill='none'/%3E%3C/svg%3E">
+
+<meta property="og:title" content="Crema Café Gulshan | Food & Coffee that makes sense">
+<meta property="og:description" content="Specialty lattes, classic coffee, savory bites and desserts in Gulshan-2, Dhaka. Open daily 12 PM–12 AM.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_BD">
+
+<script>
+(function(){
+  try{
+    var saved = localStorage.getItem('crema-theme');
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  }catch(e){}
+})();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"CafeOrCoffeeShop",
+  "name":"Crema Café Gulshan",
+  "telephone":"+880-1771-440077",
+  "servesCuisine":["Coffee","Café","Desserts"],
+  "priceRange":"৳৳",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"House 36, Road 104, Gulshan-2 (Opposite German Club)",
+    "addressLocality":"Dhaka",
+    "addressCountry":"BD"
+  },
+  "openingHoursSpecification":[{
+    "@type":"OpeningHoursSpecification",
+    "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens":"12:00",
+    "closes":"23:59"
+  }],
+  "sameAs":["https://www.instagram.com/cremacafe_gulshan/"]
+}
+</script>
+
+<style>
+/* =========================================================
+   0. DESIGN TOKENS
+   ========================================================= */
+:root{
+  color-scheme: light;
+  --font-serif:'Playfair Display',Georgia,serif;
+  --font-sans:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+
+  --bg:#FBF9F4;
+  --bg-alt:#F3EDE2;
+  --surface:#FFFFFF;
+  --surface-alt:#FAF6EE;
+  --text:#241A13;
+  --text-soft:#6B5C4E;
+  --text-faint:#9A8C7C;
+  --border:#E8DECD;
+  --border-strong:#D9CBB2;
+
+  --sage:#5C7C58;
+  --sage-soft:#E7EEE2;
+  --pink:#A85D66;
+  --pink-soft:#F6E1E1;
+  --gold:#A07535;
+  --gold-soft:#F1E4CB;
+
+  --photo-start:#3B2A1E;
+  --photo-end:#150E09;
+  --photo-icon:#EFE3D2;
+
+  --hero-text:#FBF6EE;
+  --hero-text-soft:rgba(251,246,238,0.82);
+
+  /* Footer/toast are intentionally theme-independent — a constant dark brand band */
+  --footer-bg:#1E1712;
+  --footer-text:#F3EAE0;
+  --footer-text-soft:rgba(243,234,224,.68);
+  --footer-border:rgba(243,234,224,.14);
+
+  --shadow-sm:0 2px 10px rgba(36,26,19,0.07);
+  --shadow-md:0 14px 34px rgba(36,26,19,0.10);
+  --shadow-lg:0 26px 64px rgba(36,26,19,0.16);
+
+  --r-sm:8px; --r-md:14px; --r-lg:20px;
+  --nav-h:78px;
+}
+[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#15100C;
+  --bg-alt:#1B1510;
+  --surface:#1E1712;
+  --surface-alt:#221A14;
+  --text:#F3EAE0;
+  --text-soft:#C2B2A2;
+  --text-faint:#8B7B6C;
+  --border:#33291E;
+  --border-strong:#4A3C2C;
+
+  --sage:#93B88E;
+  --sage-soft:rgba(147,184,142,0.14);
+  --pink:#E0A3A3;
+  --pink-soft:rgba(224,163,163,0.14);
+  --gold:#DAB27B;
+  --gold-soft:rgba(218,178,123,0.15);
+
+  --photo-start:#2C2119;
+  --photo-end:#0C0906;
+  --photo-icon:#E9DAC5;
+
+  --footer-bg:#0E0A07;
+  --footer-text:#F3EAE0;
+  --footer-text-soft:rgba(243,234,224,.62);
+  --footer-border:rgba(243,234,224,.12);
+
+  --shadow-sm:0 2px 12px rgba(0,0,0,0.35);
+  --shadow-md:0 18px 42px rgba(0,0,0,0.45);
+  --shadow-lg:0 32px 72px rgba(0,0,0,0.55);
+}
+
+/* =========================================================
+   1. RESET & BASE
+   ========================================================= */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;scrollbar-gutter:stable;}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+body{
+  font-family:var(--font-sans);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  transition:background-color .35s ease, color .35s ease;
+  overflow-x:hidden;
+}
+img,svg{display:block;max-width:100%;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;background:none;border:none;color:inherit;}
+ul{list-style:none;}
+h1,h2,h3,h4{font-family:var(--font-serif);font-weight:700;line-height:1.15;color:var(--text);text-wrap:balance;}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px;}
+
+.skip-link{
+  position:fixed;top:-100px;left:12px;background:var(--text);color:var(--bg);
+  padding:12px 18px;border-radius:var(--r-sm);z-index:2000;font-weight:600;font-size:14px;
+  transition:top .2s ease;
+}
+.skip-link:focus{top:12px;}
+
+section[id],#home{scroll-margin-top:var(--nav-h);}
+
+.container{width:100%;max-width:1200px;margin:0 auto;padding:0 24px;}
+.section{padding:clamp(64px,9vw,120px) 0;}
+.section-alt{background:var(--bg-alt);}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:16px;
+}
+.eyebrow::before{content:'';width:22px;height:1.5px;background:var(--gold);flex-shrink:0;}
+.section-head{max-width:640px;margin-bottom:48px;}
+.section-title{font-size:clamp(30px,4.2vw,46px);margin-bottom:16px;letter-spacing:-.01em;}
+.section-desc{color:var(--text-soft);font-size:16px;max-width:520px;line-height:1.65;}
+
+/* Buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:16px 30px;border-radius:var(--r-sm);
+  font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  transition:transform .2s ease, background-color .25s ease, color .25s ease, border-color .25s ease, box-shadow .25s ease;
+  white-space:nowrap;
+}
+.btn-primary{background:var(--text);color:var(--bg);}
+.btn-primary:hover{background:var(--gold);color:#1a1208;transform:translateY(-2px);box-shadow:var(--shadow-md);}
+.btn-outline{border:1.5px solid var(--border-strong);color:var(--text);}
+.btn-outline:hover{border-color:var(--text);background:var(--surface-alt);transform:translateY(-2px);}
+.btn-light{background:var(--hero-text);color:#241A13;}
+.btn-light:hover{background:var(--gold);color:#1a1208;transform:translateY(-2px);}
+.btn-ghost-light{border:1.5px solid rgba(251,246,238,.55);color:var(--hero-text);}
+.btn-ghost-light:hover{border-color:var(--hero-text);background:rgba(251,246,238,.1);}
+.btn:active{transform:scale(.97);}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none !important;}
+.btn-sm{padding:10px 18px;font-size:11.5px;}
+@media(max-width:380px){
+  .hero-actions{flex-direction:column;align-items:stretch;}
+  .hero-actions .btn{width:100%;}
+}
+
+/* =========================================================
+   2. PHOTO-SLOT SYSTEM
+   Replace inner content with a real <img loading="lazy"> when
+   photography from @cremacafe_gulshan is available — the ratio
+   classes keep layout stable so no redesign is needed later.
+   ========================================================= */
+.photo-slot{
+  position:relative;overflow:hidden;border-radius:var(--r-lg);
+  background:
+    radial-gradient(circle at 28% 18%, rgba(255,255,255,.07), transparent 55%),
+    linear-gradient(150deg,var(--photo-start),var(--photo-end));
+  display:flex;align-items:center;justify-content:center;
+}
+.photo-slot img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;}
+.photo-slot .slot-icon{width:30%;max-width:64px;opacity:.32;}
+.photo-slot .slot-icon path{stroke:var(--photo-icon);stroke-width:1.4;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+.slot-caption{
+  position:absolute;left:16px;right:16px;bottom:14px;
+  font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+  color:rgba(255,255,255,.7);
+}
+.slot-tag{
+  position:absolute;top:14px;left:14px;padding:6px 12px;border-radius:var(--r-sm);
+  font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  background:rgba(255,255,255,.94);color:#241A13;
+}
+.slot-tag.tag-matcha{background:#DCEBD8;color:#3F5C3B;}
+.slot-tag.tag-berry{background:#F6E1E1;color:#8B4A48;}
+.ratio-hero{aspect-ratio:16/10;}
+.ratio-portrait{aspect-ratio:4/5;}
+.ratio-wide{aspect-ratio:16/9;}
+.ratio-square{aspect-ratio:1/1;}
+
+/* =========================================================
+   3. NAVBAR
+   ========================================================= */
+.navbar{
+  position:fixed;top:0;left:0;right:0;z-index:600;
+  height:var(--nav-h);display:flex;align-items:center;
+  background:transparent;border-bottom:1px solid transparent;
+  transition:background-color .3s ease, border-color .3s ease, box-shadow .3s ease, height .2s ease;
+}
+.navbar.scrolled{background:var(--bg);border-color:var(--border);box-shadow:var(--shadow-sm);}
+.nav-inner{width:100%;display:flex;align-items:center;justify-content:space-between;}
+.logo{display:flex;flex-direction:column;line-height:1;}
+.logo .mark{font-family:var(--font-serif);font-weight:800;font-size:22px;letter-spacing:.02em;}
+.logo .sub{font-size:9.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-top:4px;}
+.navbar.on-hero:not(.scrolled) .mark{color:var(--hero-text);}
+.navbar.on-hero:not(.scrolled) .sub{color:var(--hero-text-soft);}
+
+.nav-links{display:none;gap:38px;}
+.nav-links a{
+  position:relative;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  padding:6px 0;color:var(--text);transition:color .2s ease;
+}
+.navbar.on-hero:not(.scrolled) .nav-links a{color:var(--hero-text);}
+.nav-links a::after{
+  content:'';position:absolute;left:0;bottom:0;height:1.5px;width:0;background:var(--gold);
+  transition:width .25s ease;
+}
+.nav-links a:hover::after,.nav-links a.active::after{width:100%;}
+.nav-links a.active{color:var(--gold);}
+.navbar.on-hero:not(.scrolled) .nav-links a.active{color:var(--gold);}
+
+.nav-right{display:flex;align-items:center;gap:12px;}
+.icon-btn{
+  position:relative;width:42px;height:42px;border-radius:var(--r-sm);
+  display:flex;align-items:center;justify-content:center;
+  border:1.5px solid var(--border-strong);color:var(--text);
+  transition:border-color .2s ease, background-color .2s ease, transform .15s ease;
+}
+.navbar.on-hero:not(.scrolled) .icon-btn{border-color:rgba(251,246,238,.4);color:var(--hero-text);}
+.icon-btn:hover{border-color:var(--gold);transform:translateY(-1px);}
+.icon-btn svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.6;}
+.theme-toggle .icon-sun{display:none;}
+[data-theme="dark"] .theme-toggle .icon-sun{display:block;}
+[data-theme="dark"] .theme-toggle .icon-moon{display:none;}
+
+.cart-badge{
+  position:absolute;top:-6px;right:-6px;min-width:19px;height:19px;padding:0 4px;border-radius:50%;
+  background:var(--gold);color:#1a1208;font-size:10.5px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;transform:scale(0);transition:transform .25s ease;
+}
+.cart-badge.show{transform:scale(1);}
+
+.hamburger{display:flex;flex-direction:column;gap:5px;width:22px;}
+.hamburger span{height:1.6px;background:currentColor;border-radius:2px;transition:transform .25s ease, opacity .25s ease;}
+.hamburger.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg);}
+.hamburger.open span:nth-child(2){opacity:0;}
+.hamburger.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg);}
+
+@media(min-width:960px){ .nav-links{display:flex;} }
+@media(max-width:600px){
+  :root{--nav-h:66px;}
+  .logo .sub{display:none;}
+  .logo .mark{font-size:19px;}
+  .icon-btn{width:38px;height:38px;}
+}
+
+.mobile-nav{
+  position:fixed;inset:0;z-index:900;background:var(--surface);
+  display:flex;flex-direction:column;justify-content:center;padding:40px;
+  transform:translateX(100%);opacity:0;transition:transform .4s cubic-bezier(.65,0,.35,1), opacity .3s ease;
+}
+.mobile-nav.open{transform:translateX(0);opacity:1;}
+.mobile-nav-close{position:absolute;top:22px;right:20px;}
+.mobile-nav a{
+  font-family:var(--font-serif);font-size:32px;font-weight:600;padding:14px 0;
+  border-bottom:1px solid var(--border);color:var(--text);display:block;transition:color .2s ease;
+}
+.mobile-nav a.active{color:var(--gold);}
+.mobile-nav-footer{margin-top:32px;display:flex;flex-direction:column;gap:14px;}
+.mobile-nav-footer .contact-line{font-size:14px;color:var(--text-soft);}
+@media(min-width:960px){.mobile-nav,.hamburger{display:none !important;}}
+
+/* =========================================================
+   4. HERO
+   ========================================================= */
+.hero{position:relative;height:100svh;min-height:600px;display:flex;align-items:flex-end;}
+.hero .photo-slot{position:absolute;inset:0;border-radius:0;}
+.hero .photo-slot::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(180deg, rgba(10,7,5,.15) 0%, rgba(10,7,5,.35) 55%, rgba(8,5,4,.78) 100%);
+}
+.hero-content{position:relative;z-index:5;width:100%;padding-bottom:clamp(48px,7vw,88px);color:var(--hero-text);}
+.hero-eyebrow{
+  font-size:12.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:18px;display:flex;align-items:center;gap:8px;
+}
+.hero-eyebrow::before{content:'';width:22px;height:1.5px;background:var(--gold);}
+.hero-title{
+  font-size:clamp(38px,7vw,74px);color:var(--hero-text);max-width:820px;
+  letter-spacing:-.01em;margin-bottom:20px;
+}
+.hero-title em{font-style:italic;color:var(--hero-text);border-bottom:2px solid var(--gold);padding-bottom:2px;}
+.hero-desc{font-size:16.5px;color:var(--hero-text-soft);max-width:440px;margin-bottom:34px;line-height:1.65;}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:46px;}
+.hero-meta{
+  display:flex;flex-wrap:wrap;gap:14px 30px;border-top:1px solid rgba(251,246,238,.22);padding-top:22px;
+}
+.hero-meta-item{
+  display:flex;align-items:center;gap:10px;font-size:13px;color:var(--hero-text-soft);
+}
+.hero-meta-item svg{width:16px;height:16px;stroke:var(--gold);fill:none;stroke-width:1.6;flex-shrink:0;}
+.hero-meta-item strong{color:var(--hero-text);font-weight:700;}
+@media(max-height:520px){
+  .hero{min-height:520px;}
+  .hero-meta{display:none;}
+}
+
+.scroll-cue{
+  position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:5;
+  color:var(--hero-text-soft);animation:bob 2.4s ease-in-out infinite;
+}
+@media(prefers-reduced-motion:reduce){.scroll-cue{animation:none;}}
+@keyframes bob{0%,100%{transform:translate(-50%,0);}50%{transform:translate(-50%,8px);}}
+
+.marquee-strip{background:var(--footer-bg);color:var(--footer-text);padding:16px 0;overflow:hidden;white-space:nowrap;}
+.marquee-track{display:inline-flex;gap:56px;animation:scroll 26s linear infinite;}
+@media(prefers-reduced-motion:reduce){
+  .marquee-track{animation:none;flex-wrap:wrap;justify-content:center;white-space:normal;}
+  .marquee-track span:nth-child(n+4){display:none;}
+}
+.marquee-track span{font-family:var(--font-serif);font-style:italic;font-size:15px;letter-spacing:.02em;}
+.marquee-track span b{font-style:normal;color:var(--gold);font-weight:700;}
+@keyframes scroll{to{transform:translateX(-50%);}}
+
+/* =========================================================
+   5. REVEAL ANIMATION
+   ========================================================= */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease, transform .7s ease;}
+.reveal.is-visible{opacity:1;transform:none;}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
+
+/* =========================================================
+   6. SIGNATURE / FEATURED SECTION
+   ========================================================= */
+.signature-grid{display:grid;grid-template-columns:1fr;gap:24px;}
+@media(min-width:860px){
+  .signature-grid{grid-template-columns:1.15fr 1fr;grid-template-rows:auto auto;}
+  .sig-lead{grid-row:1/3;}
+}
+.sig-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);
+  overflow:hidden;display:flex;flex-direction:column;transition:transform .3s ease, box-shadow .3s ease;
+}
+.sig-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);}
+.sig-card .photo-slot{border-radius:0;}
+.sig-lead .photo-slot{aspect-ratio:4/5;}
+.sig-small .photo-slot{aspect-ratio:16/9;}
+.sig-body{padding:26px;display:flex;flex-direction:column;gap:10px;flex:1;}
+.sig-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;}
+.sig-title{font-size:22px;}
+.sig-lead .sig-title{font-size:28px;}
+.sig-price{font-family:var(--font-serif);font-weight:700;color:var(--gold);font-size:19px;white-space:nowrap;padding-top:3px;}
+.sig-desc{color:var(--text-soft);font-size:14px;flex:1;line-height:1.6;}
+
+/* =========================================================
+   7. MENU SECTION
+   ========================================================= */
+.tabs{display:flex;gap:0;overflow-x:auto;margin-bottom:44px;border-bottom:1px solid var(--border);scrollbar-width:none;}
+.tabs::-webkit-scrollbar{display:none;}
+.tab-btn{
+  flex:0 0 auto;padding:14px 4px;margin-right:34px;font-size:13px;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--text-soft);
+  border-bottom:2px solid transparent;transition:color .2s ease, border-color .2s ease;
+}
+.tab-btn:hover{color:var(--text);}
+.tab-btn.active{color:var(--text);border-color:var(--gold);}
+
+.menu-grid{display:grid;grid-template-columns:1fr;gap:28px;}
+@media(min-width:640px){.menu-grid{grid-template-columns:1fr 1fr;}}
+@media(min-width:1020px){.menu-grid{grid-template-columns:repeat(3,1fr);}}
+
+.menu-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);
+  overflow:hidden;display:flex;flex-direction:column;
+  transition:transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+}
+.menu-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-md);border-color:var(--border-strong);}
+.menu-card .photo-slot{border-radius:0;}
+.menu-card .img-wrap{overflow:hidden;}
+.menu-card .img-wrap .photo-slot{transition:transform .5s ease;}
+.menu-card:hover .img-wrap .photo-slot{transform:scale(1.06);}
+
+.card-body{padding:22px;display:flex;flex-direction:column;gap:8px;flex:1;}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+.card-title{font-size:18px;}
+.card-price{font-family:var(--font-serif);font-weight:700;color:var(--gold);font-size:16px;white-space:nowrap;padding-top:2px;}
+.card-desc{color:var(--text-soft);font-size:13.5px;flex:1;line-height:1.55;}
+.add-btn{
+  margin-top:6px;border:1.5px solid var(--border-strong);color:var(--text);
+  padding:12px;border-radius:var(--r-sm);font-weight:700;font-size:12.5px;
+  letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:8px;
+  transition:.25s;
+}
+.add-btn:hover{background:var(--text);color:var(--bg);border-color:var(--text);}
+.add-btn.added{background:var(--sage);border-color:var(--sage);color:#fff;}
+
+/* =========================================================
+   8. STORY SECTION
+   ========================================================= */
+.story-grid{display:grid;grid-template-columns:1fr;gap:44px;align-items:center;}
+@media(min-width:900px){.story-grid{grid-template-columns:1fr 1fr;gap:64px;}}
+.story-text p{color:var(--text-soft);margin-bottom:18px;font-size:15.5px;max-width:480px;line-height:1.7;}
+.value-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;}
+.value-chip{
+  padding:9px 16px;border-radius:var(--r-sm);border:1px solid var(--border-strong);
+  font-size:12px;font-weight:600;letter-spacing:.03em;color:var(--text-soft);
+}
+
+/* =========================================================
+   9. LOCATION SECTION
+   ========================================================= */
+.location-grid{display:grid;grid-template-columns:1fr;gap:32px;}
+@media(min-width:940px){.location-grid{grid-template-columns:1.1fr .9fr;}}
+.map-slot{
+  border-radius:var(--r-lg);aspect-ratio:4/3;position:relative;overflow:hidden;
+  border:1px solid var(--border);
+  background:
+    linear-gradient(0deg, var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px),
+    var(--surface-alt);
+  background-size:28px 28px;
+  display:flex;align-items:center;justify-content:center;
+}
+.map-pin{
+  background:var(--text);color:var(--bg);padding:16px 20px;border-radius:var(--r-sm) var(--r-sm) var(--r-sm) 2px;
+  font-size:13px;font-weight:600;text-align:left;box-shadow:var(--shadow-md);max-width:240px;line-height:1.55;
+}
+.map-pin svg{width:20px;height:20px;stroke:var(--gold);fill:none;stroke-width:1.6;margin-bottom:8px;}
+
+.info-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);padding:28px;margin-bottom:20px;}
+.info-row{display:flex;gap:16px;align-items:flex-start;margin-bottom:22px;}
+.info-row:last-child{margin-bottom:0;}
+.info-icon{
+  width:44px;height:44px;border-radius:var(--r-sm);background:var(--gold-soft);color:var(--gold);
+  display:flex;align-items:center;justify-content:center;flex:0 0 auto;
+}
+.info-icon svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.6;}
+.info-row h4{font-family:var(--font-sans);font-size:14.5px;font-weight:700;margin-bottom:3px;}
+.info-row p{font-size:13.5px;color:var(--text-soft);line-height:1.55;}
+.contact-actions{display:flex;gap:12px;flex-wrap:wrap;}
+.contact-actions .btn{flex:1;}
+
+/* =========================================================
+   10. FOOTER — intentionally theme-independent dark band
+   ========================================================= */
+footer{background:var(--footer-bg);color:var(--footer-text);padding:64px 0 26px;}
+.footer-grid{display:grid;grid-template-columns:1fr;gap:36px;margin-bottom:44px;}
+@media(min-width:560px){.footer-grid{grid-template-columns:1fr 1fr;}}
+@media(min-width:860px){.footer-grid{grid-template-columns:1.3fr 1fr 1fr 1fr;}}
+.footer-brand .mark{font-family:var(--font-serif);font-size:24px;font-weight:800;color:var(--footer-text);}
+.footer-brand p{color:var(--footer-text-soft);font-size:13.5px;max-width:280px;margin-top:12px;line-height:1.6;}
+.footer-social{display:flex;gap:12px;margin-top:18px;}
+.footer-social a{
+  width:38px;height:38px;border-radius:var(--r-sm);border:1px solid var(--footer-border);
+  display:flex;align-items:center;justify-content:center;transition:.2s;
+}
+.footer-social a:hover{border-color:var(--gold);background:rgba(218,178,123,.1);}
+.footer-social svg{width:16px;height:16px;stroke:var(--footer-text);fill:none;stroke-width:1.6;}
+.footer-col h5{font-size:11.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);margin-bottom:18px;font-weight:700;}
+.footer-col a,.footer-col p{display:block;color:var(--footer-text-soft);font-size:13.5px;margin-bottom:12px;transition:color .2s ease;}
+.footer-col a:hover{color:var(--footer-text);}
+.footer-bottom{border-top:1px solid var(--footer-border);padding-top:22px;text-align:center;font-size:12px;color:var(--footer-text-soft);}
+
+/* =========================================================
+   11. CART DRAWER
+   ========================================================= */
+.overlay{position:fixed;inset:0;background:rgba(10,7,5,.5);z-index:800;opacity:0;pointer-events:none;transition:opacity .3s ease;}
+.overlay.open{opacity:1;pointer-events:auto;}
+.cart-drawer{
+  position:fixed;top:0;right:0;height:100%;width:100%;max-width:430px;background:var(--bg);z-index:950;
+  transform:translateX(100%);transition:transform .4s cubic-bezier(.65,0,.35,1);
+  display:flex;flex-direction:column;box-shadow:var(--shadow-lg);
+}
+.cart-drawer.open{transform:translateX(0);}
+.cart-header{padding:24px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;}
+.cart-header h3{font-size:21px;}
+.close-btn{width:38px;height:38px;border-radius:var(--r-sm);border:1px solid var(--border-strong);font-size:16px;}
+.cart-items{flex:1;overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column;gap:18px;}
+.empty-cart{text-align:center;color:var(--text-soft);padding:60px 20px 70px;font-size:14px;}
+.cart-item{display:flex;gap:14px;border-bottom:1px solid var(--border);padding-bottom:16px;}
+.cart-thumb{width:62px;height:62px;border-radius:var(--r-sm);flex:0 0 auto;}
+.cart-item-info{flex:1;}
+.cart-item-info h4{font-size:14.5px;margin-bottom:4px;font-weight:600;}
+.cart-item-info .price{font-size:13px;color:var(--gold);font-weight:700;}
+.qty-controls{display:flex;align-items:center;gap:10px;margin-top:8px;}
+.qty-btn{width:26px;height:26px;border-radius:var(--r-sm);background:var(--surface-alt);border:1px solid var(--border);font-weight:700;font-size:14px;}
+.qty-num{font-weight:700;font-size:13px;min-width:16px;text-align:center;}
+.remove-btn{font-size:12px;color:#B75B4A;font-weight:600;margin-left:auto;}
+
+.cart-footer{border-top:1px solid var(--border);padding:22px 24px;background:var(--surface);max-height:calc(100% - 74px);overflow-y:auto;}
+.order-type{display:flex;gap:10px;margin-bottom:18px;}
+.order-type label{
+  flex:1;text-align:center;padding:11px;border:1.5px solid var(--border-strong);
+  border-radius:var(--r-sm);font-size:12.5px;font-weight:700;cursor:pointer;transition:.2s;
+}
+.order-type input{position:absolute;opacity:0;width:1px;height:1px;}
+.order-type label:has(input:checked){background:var(--text);border-color:var(--text);color:var(--bg);}
+.order-type label:has(input:focus-visible){outline:2px solid var(--gold);outline-offset:2px;}
+
+.form-group{margin-bottom:14px;}
+.form-group label{font-size:12px;font-weight:700;display:block;margin-bottom:6px;color:var(--text-soft);letter-spacing:.02em;}
+.form-group select,.form-group input,.form-group textarea{
+  width:100%;padding:12px;border-radius:var(--r-sm);border:1.5px solid var(--border-strong);
+  font-family:var(--font-sans);font-size:13.5px;background:var(--bg);color:var(--text);
+}
+.form-group select:focus,.form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--gold);}
+.hide{display:none !important;}
+
+.cart-total-row{display:flex;justify-content:space-between;font-weight:700;font-size:17px;margin:16px 0;font-family:var(--font-serif);}
+.checkout-btn{width:100%;padding:16px;border-radius:var(--r-sm);background:var(--text);color:var(--bg);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;}
+.checkout-btn:hover{background:var(--gold);color:#1a1208;}
+.order-success{text-align:center;padding:30px 10px;}
+
+/* Toast — matches footer's constant-dark treatment */
+.toast{
+  position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:var(--footer-bg);color:var(--footer-text);padding:14px 24px;border-radius:var(--r-sm);
+  font-size:13px;font-weight:600;z-index:1100;opacity:0;pointer-events:none;transition:.3s;
+  box-shadow:var(--shadow-md);display:flex;align-items:center;gap:8px;
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ============================= NAVBAR ============================= -->
+<header class="navbar on-hero" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo" aria-label="Crema Café Gulshan home">
+      <span class="mark">Crema Café</span>
+      <span class="sub">Gulshan · Specialty Coffee</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#story">Story</a>
+      <a href="#location">Visit Us</a>
+    </nav>
+
+    <div class="nav-right">
+      <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8l1.8-1.8M18 6l1.8-1.8"/></svg>
+      </button>
+      <button class="icon-btn" id="cartToggle" aria-label="Open cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 3H2"/><circle cx="9" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+        <span class="cart-badge" id="cartBadge" aria-hidden="true">0</span>
+        <span class="visually-hidden" id="cartCountLive" aria-live="polite">0 items in cart</span>
+      </button>
+      <button class="icon-btn" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav" aria-hidden="true">
+  <button class="icon-btn mobile-nav-close" id="closeMobileNav" aria-label="Close menu">
+    <svg viewBox="0 0 24 24" style="width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <nav aria-label="Mobile primary">
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#story">Story</a>
+    <a href="#location">Visit Us</a>
+  </nav>
+  <div class="mobile-nav-footer">
+    <span class="contact-line">+880 1771-440077</span>
+    <span class="contact-line">House 36, Road 104, Gulshan-2, Dhaka</span>
+    <a href="https://www.instagram.com/cremacafe_gulshan/" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="width:fit-content;">@cremacafe_gulshan</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero" id="home">
+    <div class="photo-slot ratio-hero" role="img" aria-label="Signature layered strawberry matcha latte at Crema Café Gulshan">
+      <svg class="slot-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 24h36v20a18 18 0 0 1-18 18h0a18 18 0 0 1-18-18z"/><path d="M50 28h6a9 9 0 0 1 0 18h-6"/><path d="M20 14q4-6 8 0q4-6 8 0q4-6 8 0"/></svg>
+      <span class="slot-caption">Photo slot — hero pour shot, 16:10</span>
+    </div>
+    <div class="container hero-content">
+      <span class="hero-eyebrow">Gulshan‑2, Dhaka</span>
+      <h1 class="hero-title">Food & Coffee that <em>makes sense.</em></h1>
+      <p class="hero-desc">Specialty layered lattes, slow espresso and hearty bites — crafted for a chic, open‑air afternoon in the heart of Gulshan.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-light">View Menu</a>
+        <a href="#" class="btn btn-ghost-light" id="orderNowBtn">Order Now</a>
+      </div>
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          Open daily <strong>12 PM – 12 AM</strong>
+        </div>
+        <div class="hero-meta-item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 12 2.5a7 7 0 0 1 7 7C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+          Opposite <strong>German Club</strong>
+        </div>
+        <div class="hero-meta-item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1"/></svg>
+          <strong>@cremacafe_gulshan</strong>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">
+      <svg viewBox="0 0 24 24" style="width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.6;"><path d="M12 4v15M5 13l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Follow our story on Instagram <b>@cremacafe_gulshan</b></span>
+      <span>Specialty coffee, brewed with intention</span>
+      <span>Open daily · 12 PM – 12 AM</span>
+      <span>Follow our story on Instagram <b>@cremacafe_gulshan</b></span>
+      <span>Specialty coffee, brewed with intention</span>
+      <span>Open daily · 12 PM – 12 AM</span>
+    </div>
+  </div>
+
+  <!-- ============================= SIGNATURE ============================= -->
+  <section class="section" id="signature">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Signature Selections</span>
+        <h2 class="section-title">Crafted to Remember</h2>
+        <p class="section-desc">A handful of drinks and dishes that best represent what Crema is about — layered, considered, and genuinely delicious.</p>
+      </div>
+      <div class="signature-grid" id="signatureGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================= MENU ============================= -->
+  <section class="section section-alt" id="menu">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Full Menu</span>
+        <h2 class="section-title">Browse the Menu</h2>
+        <p class="section-desc">Specialty lattes, classic espresso, savory bites and desserts — made fresh, every day.</p>
+      </div>
+      <div class="tabs" id="tabs" role="tablist" aria-label="Menu categories"></div>
+      <div class="menu-grid" id="menuGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================= STORY ============================= -->
+  <section class="section" id="story">
+    <div class="container story-grid">
+      <div class="photo-slot ratio-square reveal" role="img" aria-label="Interior atmosphere of Crema Café Gulshan">
+        <svg class="slot-icon" viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="18" width="44" height="30" rx="3"/><path d="M10 26h44M22 18v-6h20v6"/></svg>
+        <span class="slot-caption">Photo slot — café interior, 1:1</span>
+      </div>
+      <div class="story-text reveal">
+        <span class="eyebrow">Our Story</span>
+        <h2 class="section-title">A Chic, Open‑Air Corner of Gulshan</h2>
+        <p>Crema Café Gulshan was built around one simple idea: coffee and food should feel effortless, unfussy, and genuinely good. Every drink is layered and finished by hand — no shortcuts, no filler.</p>
+        <p>Tucked into Road 104 opposite the German Club, the space is designed to feel airy and calm — a spot to slow down with a specialty latte, catch up over a rice bowl, or simply watch Gulshan go by.</p>
+        <div class="value-chips">
+          <span class="value-chip">Specialty Coffee</span>
+          <span class="value-chip">Chic, Minimal Interiors</span>
+          <span class="value-chip">Open‑Air Seating</span>
+          <span class="value-chip">Gulshan‑2 Location</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= LOCATION ============================= -->
+  <section class="section section-alt" id="location">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Visit Us</span>
+        <h2 class="section-title">Find Crema Café</h2>
+        <p class="section-desc">Right across the German Club — easy to spot, easier to stay a while.</p>
+      </div>
+
+      <div class="location-grid">
+        <div class="map-slot reveal" role="img" aria-label="Map showing Crema Café Gulshan location at House 36, Road 104, Gulshan-2">
+          <div class="map-pin">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 12 2.5a7 7 0 0 1 7 7C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+            House 36, Road 104, Gulshan‑2, Dhaka<br><span style="color:var(--text-faint);font-weight:400;">(Opposite German Club)</span>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="info-card">
+            <div class="info-row">
+              <div class="info-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 12 2.5a7 7 0 0 1 7 7C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg></div>
+              <div><h4>Address</h4><p>House 36, Road 104, Gulshan‑2, Dhaka (Opposite German Club)</p></div>
+            </div>
+            <div class="info-row">
+              <div class="info-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+              <div><h4>Opening Hours</h4><p>Everyday — 12:00 PM to 12:00 AM</p></div>
+            </div>
+            <div class="info-row">
+              <div class="info-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h4l2 5-2.5 1.5a12 12 0 0 0 6 6L15 14l5 2v4a2 2 0 0 1-2 2C10 22 2 14 2 6a2 2 0 0 1 2-2z"/></svg></div>
+              <div><h4>Contact</h4><p>+880 1771‑440077</p></div>
+            </div>
+          </div>
+          <div class="contact-actions">
+            <a href="https://www.google.com/maps/search/?api=1&query=House+36+Road+104+Gulshan+2+Dhaka" target="_blank" rel="noopener" class="btn btn-primary">Get Directions</a>
+            <a href="https://wa.me/8801771440077" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================= FOOTER ============================= -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark">Crema Café</span>
+        <p>Food & coffee that makes sense — a chic specialty coffee shop in the heart of Gulshan‑2, Dhaka.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/cremacafe_gulshan/" target="_blank" rel="noopener" aria-label="Visit our Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1"/></svg></a>
+          <a href="tel:+8801771440077" aria-label="Call Crema Café"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h4l2 5-2.5 1.5a12 12 0 0 0 6 6L15 14l5 2v4a2 2 0 0 1-2 2C10 22 2 14 2 6a2 2 0 0 1 2-2z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#story">Story</a>
+        <a href="#location">Visit Us</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="tel:+8801771440077">+880 1771‑440077</a>
+        <a href="https://wa.me/8801771440077" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://www.instagram.com/cremacafe_gulshan/" target="_blank" rel="noopener">@cremacafe_gulshan</a>
+      </div>
+      <div class="footer-col">
+        <h5>Hours</h5>
+        <p>Everyday</p>
+        <p>12:00 PM – 12:00 AM</p>
+        <p>House 36, Road 104<br>Gulshan‑2, Dhaka</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2024 Crema Café Gulshan. All rights reserved.</div>
+  </div>
+</footer>
+
+<!-- ============================= CART DRAWER ============================= -->
+<div class="overlay" id="overlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+  <div class="cart-header">
+    <h3>Your Cart</h3>
+    <button class="close-btn" id="closeCart" aria-label="Close cart">✕</button>
+  </div>
+
+  <div class="cart-items" id="cartItems">
+    <div class="empty-cart">
+      <svg viewBox="0 0 24 24" style="width:40px;height:40px;stroke:var(--text-faint);fill:none;stroke-width:1.3;margin:0 auto 16px;display:block;" aria-hidden="true"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 3H2"/><circle cx="9" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+      Your cart is empty.<br>Add something delicious.
+    </div>
+  </div>
+
+  <div class="cart-footer" id="cartFooter" style="display:none;">
+    <div class="order-type">
+      <label><input type="radio" name="orderType" value="delivery" checked><span>Delivery</span></label>
+      <label><input type="radio" name="orderType" value="dinein"><span>Dine‑in Pre‑order</span></label>
+    </div>
+
+    <div id="deliveryFields">
+      <div class="form-group">
+        <label for="areaSelect">Delivery Area</label>
+        <select id="areaSelect">
+          <option value="Gulshan">Gulshan</option>
+          <option value="Banani">Banani</option>
+          <option value="Baridhara">Baridhara</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="addressInput">Full Address</label>
+        <textarea rows="2" id="addressInput" placeholder="House, Road, Area details..."></textarea>
+      </div>
+    </div>
+
+    <div id="dineinFields" class="hide">
+      <div class="form-group">
+        <label for="pickupTime">Preferred Pickup Time</label>
+        <input type="time" id="pickupTime">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="nameInput">Your Name</label>
+      <input type="text" id="nameInput" placeholder="e.g. Rahim Ahmed" autocomplete="name">
+    </div>
+
+    <div class="form-group">
+      <label for="phoneInput">Contact Number</label>
+      <input type="tel" inputmode="tel" id="phoneInput" placeholder="01XXXXXXXXX">
+    </div>
+
+    <div class="cart-total-row"><span>Total</span><span id="cartTotal">৳0</span></div>
+    <button class="checkout-btn" id="checkoutBtn">Place Order</button>
+  </div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite">Added to cart</div>
+
+<script>
+/* =====================================================
+   DATA LAYER — tag values map to accent colors:
+   "Berry" = pink, "Matcha" = sage (per brand guideline).
+   All other tags remain neutral so those two accents keep meaning.
+===================================================== */
+const menuData = [
+  {id:1, name:"Strawberry Matcha Latte", price:350, category:"Specialty Lattes", tag:"Berry",
+   desc:"Chilled premium matcha paired with house-made strawberry puree layers.", signature:true},
+  {id:2, name:"Tiramisu Latte", price:460, category:"Specialty Lattes", tag:"Coffee",
+   desc:"A luxurious espresso latte topped with an authentic slice of tiramisu cake.", signature:true},
+  {id:3, name:"Matcha Latte", price:320, category:"Specialty Lattes", tag:"Matcha",
+   desc:"Silky steamed milk blended with premium ceremonial-grade matcha."},
+  {id:4, name:"Spanish Latte", price:330, category:"Specialty Lattes", tag:"Coffee",
+   desc:"Espresso balanced with condensed milk for a sweet, rich finish."},
+  {id:5, name:"Chilled Iced Latte", price:295, category:"Classic Coffee", tag:"Coffee",
+   desc:"Double espresso shot over cold textured milk and ice."},
+  {id:6, name:"Classic Cappuccino", price:280, category:"Classic Coffee", tag:"Coffee",
+   desc:"Rich espresso topped with velvety steamed milk foam."},
+  {id:7, name:"Americano", price:250, category:"Classic Coffee", tag:"Coffee",
+   desc:"Bold double-shot espresso diluted with hot water."},
+  {id:8, name:"Chicken Chilli Onion Rice Bowl", price:280, category:"Savory Bites", tag:"Savory",
+   desc:"Savory sliced chicken tossed with fresh green chillies and onions served over steamed rice.", signature:true},
+  {id:9, name:"Smoked Chicken Cheese Sandwich", price:275, category:"Savory Bites", tag:"Savory",
+   desc:"Toastie layered with premium smoked chicken breast and melted cheese."},
+  {id:10, name:"New York Cheesecake", price:390, category:"Desserts", tag:"Dessert",
+   desc:"Creamy classic baked cheesecake on a buttery biscuit crust."},
+  {id:11, name:"Nutella Croissant", price:260, category:"Desserts", tag:"Dessert",
+   desc:"Flaky butter croissant generously filled with Nutella."},
+];
+const categories = ["All","Specialty Lattes","Classic Coffee","Savory Bites","Desserts"];
+const photoIcon = `<svg class="slot-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 24h36v20a18 18 0 0 1-18 18h0a18 18 0 0 1-18-18z"/><path d="M50 28h6a9 9 0 0 1 0 18h-6"/><path d="M20 14q4-6 8 0q4-6 8 0q4-6 8 0"/></svg>`;
+
+function tagClass(tag){
+  if(tag==='Matcha') return 'tag-matcha';
+  if(tag==='Berry') return 'tag-berry';
+  return '';
+}
+
+let activeFilter = "All";
+let cart = {};
+
+/* =====================================================
+   SIGNATURE SECTION
+===================================================== */
+function renderSignature(){
+  const items = menuData.filter(i=>i.signature);
+  const grid = document.getElementById('signatureGrid');
+  grid.innerHTML = items.map((item,idx)=>{
+    const cls = idx===0 ? 'sig-lead' : 'sig-small';
+    return `
+    <div class="sig-card ${cls} reveal" style="transition-delay:${idx*0.08}s">
+      <div class="photo-slot" role="img" aria-label="${item.name} — ${item.desc}">
+        ${photoIcon}
+        <span class="slot-tag ${tagClass(item.tag)}">${item.tag}</span>
+        <span class="slot-caption">Photo slot — ${item.name}</span>
+      </div>
+      <div class="sig-body">
+        <div class="sig-top">
+          <h3 class="sig-title">${item.name}</h3>
+          <span class="sig-price">৳${item.price}</span>
+        </div>
+        <p class="sig-desc">${item.desc}</p>
+        <button class="add-btn" data-id="${item.id}">Add to Cart</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+/* =====================================================
+   TABS
+===================================================== */
+const tabsEl = document.getElementById('tabs');
+function renderTabs(){
+  tabsEl.innerHTML = categories.map(cat => `
+    <button class="tab-btn ${cat===activeFilter?'active':''}" role="tab" aria-selected="${cat===activeFilter}" data-cat="${cat}">${cat}</button>
+  `).join('');
+}
+tabsEl.addEventListener('click', e=>{
+  const btn = e.target.closest('.tab-btn');
+  if(!btn) return;
+  activeFilter = btn.dataset.cat;
+  renderTabs();
+  renderMenu();
+});
+
+/* =====================================================
+   MENU GRID
+===================================================== */
+const menuGrid = document.getElementById('menuGrid');
+function renderMenu(){
+  const items = activeFilter === "All" ? menuData : menuData.filter(i=>i.category===activeFilter);
+  menuGrid.innerHTML = items.map((item,idx)=>`
+    <div class="menu-card reveal is-visible" style="transition-delay:${idx*0.04}s">
+      <div class="img-wrap">
+        <div class="photo-slot ratio-portrait" role="img" aria-label="${item.name} — ${item.desc}">
+          ${photoIcon}
+          <span class="slot-tag ${tagClass(item.tag)}">${item.tag}</span>
+          <span class="slot-caption">Photo slot — ${item.name}</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-title">${item.name}</h3>
+          <span class="card-price">৳${item.price}</span>
+        </div>
+        <p class="card-desc">${item.desc}</p>
+        <button class="add-btn" data-id="${item.id}">Add to Cart</button>
+      </div>
+    </div>`).join('');
+}
+
+document.addEventListener('click', e=>{
+  const btn = e.target.closest('.add-btn');
+  if(!btn) return;
+  const id = Number(btn.dataset.id);
+  addToCart(id);
+  const original = btn.textContent;
+  btn.textContent = "Added ✓";
+  btn.classList.add('added');
+  setTimeout(()=>{ btn.textContent = original; btn.classList.remove('added'); }, 900);
+  showToast(`${menuData.find(m=>m.id===id).name} added to cart`);
+});
+
+/* =====================================================
+   CART LOGIC
+===================================================== */
+const cartBadge = document.getElementById('cartBadge');
+const cartCountLive = document.getElementById('cartCountLive');
+const cartItemsEl = document.getElementById('cartItems');
+const cartFooter = document.getElementById('cartFooter');
+const cartTotalEl = document.getElementById('cartTotal');
+
+function addToCart(id){ cart[id] = (cart[id]||0)+1; renderCart(); }
+function incQty(id){ cart[id]++; renderCart(); }
+function decQty(id){ cart[id]--; if(cart[id]<=0) delete cart[id]; renderCart(); }
+function removeItem(id){ delete cart[id]; renderCart(); }
+function getCartCount(){ return Object.values(cart).reduce((a,b)=>a+b,0); }
+function getCartTotal(){ return Object.entries(cart).reduce((sum,[id,qty])=>sum+menuData.find(m=>m.id===Number(id)).price*qty,0); }
+
+function renderCart(){
+  const count = getCartCount();
+  cartBadge.textContent = count;
+  cartBadge.classList.toggle('show', count>0);
+  cartCountLive.textContent = `${count} item${count===1?'':'s'} in cart`;
+
+  const entries = Object.entries(cart);
+  if(entries.length===0){
+    cartItemsEl.innerHTML = `<div class="empty-cart">
+      <svg viewBox="0 0 24 24" style="width:40px;height:40px;stroke:var(--text-faint);fill:none;stroke-width:1.3;margin:0 auto 16px;display:block;" aria-hidden="true"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 3H2"/><circle cx="9" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+      Your cart is empty.<br>Add something delicious.
+    </div>`;
+    cartFooter.style.display = 'none';
+    return;
+  }
+  cartFooter.style.display = 'block';
+  cartItemsEl.innerHTML = entries.map(([id,qty])=>{
+    const item = menuData.find(m=>m.id===Number(id));
+    return `
+    <div class="cart-item">
+      <div class="cart-thumb photo-slot" role="img" aria-label="${item.name}">${photoIcon}</div>
+      <div class="cart-item-info">
+        <h4>${item.name}</h4>
+        <div class="price">৳${item.price} × ${qty} = ৳${item.price*qty}</div>
+        <div class="qty-controls">
+          <button class="qty-btn" data-action="dec" data-id="${id}" aria-label="Decrease quantity of ${item.name}">−</button>
+          <span class="qty-num">${qty}</span>
+          <button class="qty-btn" data-action="inc" data-id="${id}" aria-label="Increase quantity of ${item.name}">+</button>
+          <span class="remove-btn" data-action="remove" data-id="${id}" role="button" tabindex="0">Remove</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+  cartTotalEl.textContent = `৳${getCartTotal()}`;
+}
+
+cartItemsEl.addEventListener('click', e=>{
+  const t = e.target.closest('[data-action]');
+  if(!t) return;
+  const id = Number(t.dataset.id), action = t.dataset.action;
+  if(action==='inc') incQty(id);
+  if(action==='dec') decQty(id);
+  if(action==='remove') removeItem(id);
+});
+
+/* =====================================================
+   CART DRAWER TOGGLE
+===================================================== */
+const cartDrawer = document.getElementById('cartDrawer');
+const overlay = document.getElementById('overlay');
+function openCart(){ cartDrawer.classList.add('open'); overlay.classList.add('open'); document.body.style.overflow='hidden'; }
+function closeCart(){ cartDrawer.classList.remove('open'); overlay.classList.remove('open'); if(!mobileNav.classList.contains('open')) document.body.style.overflow=''; }
+document.getElementById('cartToggle').addEventListener('click', openCart);
+document.getElementById('orderNowBtn').addEventListener('click', e=>{ e.preventDefault(); openCart(); });
+document.getElementById('closeCart').addEventListener('click', closeCart);
+overlay.addEventListener('click', ()=>{ closeCart(); closeMobileNav(); });
+document.addEventListener('keydown', e=>{ if(e.key==='Escape'){ closeCart(); closeMobileNav(); } });
+
+/* =====================================================
+   ORDER TYPE TOGGLE
+===================================================== */
+const deliveryFields = document.getElementById('deliveryFields');
+const dineinFields = document.getElementById('dineinFields');
+document.querySelectorAll('input[name="orderType"]').forEach(radio=>{
+  radio.addEventListener('change', e=>{
+    if(e.target.value==='delivery'){ deliveryFields.classList.remove('hide'); dineinFields.classList.add('hide'); }
+    else { deliveryFields.classList.add('hide'); dineinFields.classList.remove('hide'); }
+  });
+});
+
+/* =====================================================
+   CHECKOUT → SEND ORDER TO OWNER'S WHATSAPP
+   Owner: +880 1611-970150 (01611970150, Bangladesh).
+   If the number ever changes, edit OWNER_WHATSAPP below
+   (international format: country code, no +, no leading 0).
+===================================================== */
+const OWNER_WHATSAPP = '8801611970150';
+
+function dhakaTimestamp(){
+  const d = new Date();
+  const date = new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Dhaka',day:'2-digit',month:'short',year:'numeric'}).format(d);
+  const time = new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Dhaka',hour:'numeric',minute:'2-digit',hour12:true}).format(d);
+  return `${date}, ${time}`;
+}
+
+function buildOrderMessage(o){
+  const line = '----------------------------';
+  const rows = [
+    '*NEW ORDER — Crema Cafe Gulshan*',
+    `Order No: ${o.orderNo}`,
+    `Placed: ${o.time} (Dhaka)`,
+    line,
+    '*ITEMS*'
+  ];
+  o.items.forEach(it => rows.push(`${it.qty} × ${it.name} — ৳${it.price*it.qty}`));
+  rows.push(line);
+  rows.push(`*Order Type:* ${o.orderType==='delivery' ? 'Delivery' : 'Dine-in Pre-order'}`);
+  if(o.orderType==='delivery'){
+    rows.push(`*Area:* ${o.area}`);
+    rows.push(`*Address:* ${o.address}`);
+  } else {
+    rows.push(`*Pickup Time:* ${o.pickupTime || 'As soon as possible'}`);
+  }
+  rows.push(`*Customer:* ${o.name}`);
+  rows.push(`*Phone:* ${o.phone}`);
+  rows.push(line);
+  rows.push(`*TOTAL: ৳${o.total}*`);
+  rows.push(o.orderType==='delivery' ? 'Payment: Cash on delivery' : 'Payment: Pay at counter');
+  return rows.join('\n');
+}
+
+document.getElementById('checkoutBtn').addEventListener('click', ()=>{
+  if(getCartCount()===0){ showToast('Your cart is empty'); return; }
+
+  const orderType = document.querySelector('input[name="orderType"]:checked').value;
+  const name = document.getElementById('nameInput').value.trim();
+  const phoneRaw = document.getElementById('phoneInput').value.trim();
+  const digits = phoneRaw.replace(/\D/g,'');
+
+  if(!name){ showToast('Please enter your name'); return; }
+  if(digits.length < 10){ showToast('Please enter a valid contact number'); return; }
+
+  let area='', address='', pickupTime='';
+  if(orderType==='delivery'){
+    area = document.getElementById('areaSelect').value;
+    address = document.getElementById('addressInput').value.trim();
+    if(!address){ showToast('Please enter your delivery address'); return; }
+  } else {
+    pickupTime = document.getElementById('pickupTime').value;
+  }
+
+  const order = {
+    orderNo: 'CG-' + Math.floor(1000 + Math.random()*9000),
+    time: dhakaTimestamp(),
+    items: Object.entries(cart).map(([id,qty])=>{
+      const item = menuData.find(m=>m.id===Number(id));
+      return {name:item.name, price:item.price, qty:qty};
+    }),
+    orderType: orderType, area: area, address: address, pickupTime: pickupTime,
+    name: name, phone: phoneRaw,
+    total: getCartTotal()
+  };
+
+  const message = buildOrderMessage(order);
+  const waUrl = 'https://wa.me/' + OWNER_WHATSAPP + '?text=' + encodeURIComponent(message);
+
+  /* Save a copy of the order on the clipboard as a safety net */
+  try { navigator.clipboard.writeText(message).catch(()=>{}); } catch(e){}
+
+  /* Open WhatsApp addressed to the owner with the order pre-filled */
+  window.open(waUrl, '_blank');
+
+  cartItemsEl.innerHTML = `
+    <div class="order-success">
+      <svg viewBox="0 0 24 24" style="width:44px;height:44px;stroke:var(--sage);fill:none;stroke-width:1.6;margin:0 auto 14px;display:block;" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+      <h3>Almost Done!</h3>
+      <p style="color:var(--text-soft);font-size:13.5px;margin-top:10px;">Total: ৳${order.total} — WhatsApp just opened with your full order details. Press <b>Send</b> there and it lands instantly with the café owner, who will confirm at ${order.phone}.</p>
+      <p style="margin-top:14px;"><a href="${waUrl}" target="_blank" rel="noopener" style="color:var(--gold);font-weight:700;font-size:13px;">WhatsApp didn't open? Tap here to send it.</a></p>
+    </div>`;
+  cartFooter.style.display = 'none';
+  showToast('Press Send in WhatsApp to confirm');
+  setTimeout(()=>{ cart = {}; renderCart(); closeCart(); }, 4500);
+});
+
+/* =====================================================
+   TOAST
+===================================================== */
+const toast = document.getElementById('toast');
+let toastTimer;
+function showToast(msg){
+  clearTimeout(toastTimer);
+  toast.textContent = msg;
+  toast.classList.add('show');
+  toastTimer = setTimeout(()=>toast.classList.remove('show'), 2200);
+}
+
+/* =====================================================
+   MOBILE NAV
+===================================================== */
+const menuToggle = document.getElementById('menuToggle');
+const mobileNav = document.getElementById('mobileNav');
+const hamburger = document.getElementById('hamburger');
+function openMobileNav(){ mobileNav.classList.add('open'); mobileNav.setAttribute('aria-hidden','false'); hamburger.classList.add('open'); menuToggle.setAttribute('aria-expanded','true'); document.body.style.overflow='hidden'; }
+function closeMobileNav(){ mobileNav.classList.remove('open'); mobileNav.setAttribute('aria-hidden','true'); hamburger.classList.remove('open'); menuToggle.setAttribute('aria-expanded','false'); if(!cartDrawer.classList.contains('open')) document.body.style.overflow=''; }
+menuToggle.addEventListener('click', ()=> mobileNav.classList.contains('open') ? closeMobileNav() : openMobileNav());
+document.getElementById('closeMobileNav').addEventListener('click', closeMobileNav);
+mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click', closeMobileNav));
+
+/* =====================================================
+   NAVBAR SCROLL STATE
+===================================================== */
+const navbar = document.getElementById('navbar');
+const heroEl = document.getElementById('home');
+function updateNavState(){
+  const scrolled = window.scrollY > 10;
+  navbar.classList.toggle('scrolled', scrolled);
+  const heroRect = heroEl.getBoundingClientRect();
+  navbar.classList.toggle('on-hero', heroRect.bottom > 80);
+}
+window.addEventListener('scroll', updateNavState, {passive:true});
+
+/* =====================================================
+   SCROLLSPY — active nav link tracks current section
+===================================================== */
+const spySections = ['home','menu','story','location'].map(id=>document.getElementById(id)).filter(Boolean);
+const navLinkEls = document.querySelectorAll('.nav-links a, .mobile-nav a');
+const spyObserver = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      const id = entry.target.id;
+      navLinkEls.forEach(link=>{
+        link.classList.toggle('active', link.getAttribute('href') === '#'+id);
+      });
+    }
+  });
+}, {rootMargin:'-45% 0px -50% 0px'});
+spySections.forEach(sec=>spyObserver.observe(sec));
+
+/* =====================================================
+   THEME TOGGLE
+===================================================== */
+const root = document.documentElement;
+const themeToggle = document.getElementById('themeToggle');
+function applyTheme(t, persist){
+  root.setAttribute('data-theme', t);
+  themeToggle.setAttribute('aria-label', t==='dark' ? 'Switch to light mode' : 'Switch to dark mode');
+  themeToggle.setAttribute('aria-pressed', t==='dark');
+  if(persist) localStorage.setItem('crema-theme', t);
+}
+themeToggle.addEventListener('click', ()=>{
+  const current = root.getAttribute('data-theme') || 'light';
+  applyTheme(current==='dark' ? 'light' : 'dark', true);
+});
+if(!localStorage.getItem('crema-theme')){
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e=>{
+    if(!localStorage.getItem('crema-theme')) applyTheme(e.matches?'dark':'light', false);
+  });
+}
+
+/* =====================================================
+   SCROLL REVEAL
+===================================================== */
+const io = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){ entry.target.classList.add('is-visible'); io.unobserve(entry.target); }
+  });
+}, {threshold:0.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* =====================================================
+   INIT
+===================================================== */
+renderSignature();
+renderTabs();
+renderMenu();
+renderCart();
+updateNavState();
+applyTheme(root.getAttribute('data-theme') || 'light', false);
+</script>
+</body>
+</html>
